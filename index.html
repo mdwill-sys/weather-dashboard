@@ -14,13 +14,12 @@
     <h1 style="text-align: center; padding: 10px;">Weather Dashboard</h1>
 
     <!-- Weather Forecast Widget -->
-    <iframe id="weather-widget" src="<a class="weatherwidget-io" href="https://forecast7.com/en/45d19n93d40/champlin/?unit=us" data-label_1="CHAMPLIN" data-label_2="WEATHER" data-theme="weather_one" >CHAMPLIN WEATHER</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>" height="400" width="100%"></iframe>
-    
-    <!-- Radar Widget -->
-    <iframe id="radar-widget" src="https://www.wunderground.com/radar/us/mn/minneapolis" height="600" width="100%"></iframe>
+    <a class="weatherwidget-io" href="https://forecast7.com/en/45d19n93d40/champlin/?unit=us" 
+       data-label_1="CHAMPLIN" data-label_2="WEATHER" data-theme="weather_one">CHAMPLIN WEATHER</a>
+    <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+    </script>
 
-</body>
-</html>
+    <!-- Radar Widget -->
+    <iframe id="radar-widget" src="https://www.wunderground.com/radar/us/mn/minneapolis" height="
+
